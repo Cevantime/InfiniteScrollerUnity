@@ -1,0 +1,74 @@
+{
+    "name": "Player Controls",
+    "maps": [
+        {
+            "name": "Player map",
+            "id": "08cb7498-93cb-4caa-904a-a9f25966c4f5",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "10ced91f-7c64-420e-bf19-022e224a4846",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Start Game",
+                    "type": "Button",
+                    "id": "623d907e-833d-4782-8f76-e956c24101be",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0f0e0382-136f-41c9-bcde-7491599f2331",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a67aef8-a2f2-421f-b870-8296496b9559",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6263b683-6b0d-4837-bcf8-5f184b904d4b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d034a346-0de7-403e-91a6-9262344bd4de",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start Game",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
